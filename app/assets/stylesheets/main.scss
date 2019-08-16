@@ -1,7 +1,16 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#nav{margin: 0; padding: 0; list-style: none; display: inline;}
-#nav li {display: inline;}
-#nav, #toogle {display: none;}
-#toogle:checked + #nav{display: inline;}
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.wrapper{width: 1170px; margin: 0 auto;}
+.clearfix{content: ''; display: block; clear: both;}
+
+header{height: 75px; background-color: #006F84; border: 1px solid #253342;
+        position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
+h1{color: black; line-height: 75px; float: left;}
+.menu{float: right;}
+.menu li{float: left;}
+.menu a{line-height: 75px; float :left; color: black; padding: 0 15px; display: block;}
