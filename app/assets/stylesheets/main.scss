@@ -1,6 +1,12 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumGohic';
+    src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('tretype');
+}
 *{margin: 0; padding: 0;}
 li{list-style: none;}
 a{text-decoration: none;}

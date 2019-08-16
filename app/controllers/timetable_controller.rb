@@ -1,0 +1,2 @@
+class TimetableController < ApplicationController
+end
