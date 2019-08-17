@@ -1,24 +1,20 @@
-# README
+# 선문대학교 셔틀버스🚌 홈페이지 리메뉴얼중인 소스입니다.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 해당 프로젝트는 오픈소스 프로젝트로 진행되며 언제든 참여가 가능합니다.
+---
+* <h2>프로젝트 기여자 ❤️</h2>
 
-Things you may want to cover:
+    | 개발자 | GitHub | Blog |
+    |:--------:|:--------:|:--------:|
+    | 김성민 | [devsungmin](https://github.com/devsungmin)| [개인블로그 방문하기](https://sungmin.dev) |
 
-* Ruby version
+    <b>📝프로젝트에 관심이 있으신분들은 E-mail : kim@sungmin.dev로 연락 주시면 언제든 기여하실수 있습니다.</b>
+---
+* <h2>개발 환경 💻</h2>
+    - 💻mac os Mojave(10.14.5)<br>
+    - 📝Code Editor : VS Code
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    |Ruby version | Rails version |
+    |:--------:|:--------:|
+    | 2.3.7 | 5.2.3|
+---
