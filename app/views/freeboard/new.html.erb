@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>새글 작성하기</title>
+</head>
+<body>
+    <h1>새 글 쓰기</h1>
+    <br>
+    <form action="/freeboard/create" method="post">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    제목 : <input type="text" name="post_title" value=""><br />
+    내용 : <textarea name="post_content" rows="8" cols="80"></textarea><br />
+    <input type="submit" value="제출">
+    </form>
+</body>
+</html>

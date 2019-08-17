@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<h1>수정 화면</h1>
+<form action="/freeboard/update/<%= @post.id %>/" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  제목 : <input type="text" name="post_title" value="<%= @post.title %>"><br />
+  내용 : <textarea name="post_content" rows="8" cols="80"><%= @post.content%></textarea><br />
+  <input type="submit" value="제출">
+</form>

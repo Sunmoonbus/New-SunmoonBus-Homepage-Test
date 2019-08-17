@@ -1,0 +1,2 @@
+class Freeboard < ApplicationRecord
+end
