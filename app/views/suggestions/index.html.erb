@@ -19,6 +19,23 @@
 </head>
   
 <body>
+<div style="position: absolute; left: 80px; bottom: 600px;">
+<button type="button" style="width:70px; height:30px;" onclick="location.href='/suggestions/new'">새 글 쓰기</button><br/><br/>
+</div>
+
+<div style="position: absolute; left: 80px; top: 250px;">
+<% @posts.each do |p|%>
+  제목 : <%= p.title %><br>
+  내용 : <%= p.content %>
+  <a href="/suggestions/edit/<%= p.id %>">[수정]</a>
+  <form action="/suggestions/destroy/<%= p.id %>" method="post">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <input type="submit" name="" value="삭제">
+  </form>
+  <hr />
+<% end %>
+</div>
+
 <!-- 구글 애드센스 -->
 <ins class="adsbygoogle"
 style="display:block"

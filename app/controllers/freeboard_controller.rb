@@ -12,7 +12,7 @@ class FreeboardController < ApplicationController
     @post.title = params[:post_title]
     @post.content = params[:post_content]
     @post.save
-    redirect_to '/freeboard/'
+    redirect_to '/freeboard'
     end
 
     def edit
@@ -25,13 +25,13 @@ class FreeboardController < ApplicationController
     @post.content = params[:post_content]
     @post.save
 
-    redirect_to '/freeboard/'
+    redirect_to '/freeboard'
     end
 
     def destroy
     @post = Freeboard.find(params[:post_id])
     @post.destroy
 
-    redirect_to '/freeboard/'
+    redirect_to '/freeboard'
     end
 end

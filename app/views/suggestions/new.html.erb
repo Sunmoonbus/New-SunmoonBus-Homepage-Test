@@ -7,10 +7,10 @@
     <title>새글 작성하기</title>
 </head>
 <body>
-    <h1>자유 게시판 글 쓰기</h1>
+    <h1>건의사항 글 쓰기</h1>
     <br>
     <div style="position: absolute; left: 0px; top: 80px;">
-    <form action="/freeboard/create" method="post">
+    <form action="/suggestions/create" method="post">
     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
     제목 : <input type="text" name="post_title" value=""><br />
     내용 : <textarea name="post_content" rows="8" cols="80"></textarea><br />
